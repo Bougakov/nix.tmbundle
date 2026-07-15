@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Nix</string>
+	<key>uuid</key>
+	<string>9A2D3C61-7E3B-4B5A-9C0F-2D6E8A1B4F70</string>
+	<key>description</key>
+	<string>Support for the Nix expression language (.nix), as used by NixOS, nix-darwin, Home Manager and the Nix package manager.</string>
+	<key>contactName</key>
+	<string>Sanja</string>
+	<key>contactEmailRot13</key>
+	<string>n@obhtnxbi.pbz</string>
+</dict>
+</plist>
