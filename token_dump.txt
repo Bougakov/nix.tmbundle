@@ -1,0 +1,196 @@
+"#"  ::  source.nix comment.line.number-sign.nix punctuation.definition.comment.nix
+" NixOS configuration — syntax smoke test for the Nix bundle"  ::  source.nix comment.line.number-sign.nix
+"/*"  ::  source.nix comment.block.nix punctuation.definition.comment.begin.nix
+" block comment"  ::  source.nix comment.block.nix
+"   spanning two lines "  ::  source.nix comment.block.nix
+"*/"  ::  source.nix comment.block.nix punctuation.definition.comment.end.nix
+"{"  ::  source.nix punctuation.section.braces.begin.nix
+"config"  ::  source.nix variable.parameter.function.nix
+","  ::  source.nix punctuation.separator.comma.nix
+"pkgs"  ::  source.nix variable.parameter.function.nix
+","  ::  source.nix punctuation.separator.comma.nix
+"lib"  ::  source.nix variable.parameter.function.nix
+"?"  ::  source.nix keyword.operator.nix
+"import"  ::  source.nix support.function.builtin.nix
+"<nixpkgs/lib>"  ::  source.nix string.unquoted.spath.nix
+","  ::  source.nix punctuation.separator.comma.nix
+"..."  ::  source.nix keyword.operator.nix
+"}"  ::  source.nix punctuation.section.braces.end.nix
+"@"  ::  source.nix keyword.operator.nix
+"args"  ::  source.nix variable.parameter.function.nix
+":"  ::  source.nix punctuation.separator.colon.nix
+"let"  ::  source.nix keyword.control.nix
+"host"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.begin.nix
+"web-01"  ::  source.nix string.quoted.double.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.end.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"greeting"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.begin.nix
+"hello "  ::  source.nix string.quoted.double.nix
+"\\\""  ::  source.nix string.quoted.double.nix constant.character.escape.nix
+"${"  ::  source.nix string.quoted.double.nix meta.interpolation.nix punctuation.section.interpolation.begin.nix
+"config.networking.hostName"  ::  source.nix string.quoted.double.nix meta.interpolation.nix
+"}"  ::  source.nix string.quoted.double.nix meta.interpolation.nix punctuation.section.interpolation.end.nix
+"\\\""  ::  source.nix string.quoted.double.nix constant.character.escape.nix
+"\\n"  ::  source.nix string.quoted.double.nix constant.character.escape.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.end.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"motd"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"''"  ::  source.nix string.quoted.other.indented.nix punctuation.definition.string.begin.nix
+"    Welcome to "  ::  source.nix string.quoted.other.indented.nix
+"${"  ::  source.nix string.quoted.other.indented.nix meta.interpolation.nix punctuation.section.interpolation.begin.nix
+"host"  ::  source.nix string.quoted.other.indented.nix meta.interpolation.nix
+"}"  ::  source.nix string.quoted.other.indented.nix meta.interpolation.nix punctuation.section.interpolation.end.nix
+"!"  ::  source.nix string.quoted.other.indented.nix
+"    Literal dollar-brace: "  ::  source.nix string.quoted.other.indented.nix
+"''${"  ::  source.nix string.quoted.other.indented.nix constant.character.escape.nix
+"keep} and doubled quote: "  ::  source.nix string.quoted.other.indented.nix
+"'''"  ::  source.nix string.quoted.other.indented.nix constant.character.escape.nix
+"    Escaped newline: "  ::  source.nix string.quoted.other.indented.nix
+"''\\n"  ::  source.nix string.quoted.other.indented.nix constant.character.escape.nix
+"''"  ::  source.nix string.quoted.other.indented.nix punctuation.definition.string.end.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"root"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"/etc/nixos"  ::  source.nix string.unquoted.path.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"module"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"./modules/web.nix"  ::  source.nix string.unquoted.path.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"homeDir"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"~/projects/site"  ::  source.nix string.unquoted.path.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"cache"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"https://cache.nixos.org"  ::  source.nix string.unquoted.url.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"fraction"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"6/3"  ::  source.nix string.unquoted.path.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"#"  ::  source.nix comment.line.number-sign.nix punctuation.definition.comment.nix
+" a path, not division"  ::  source.nix comment.line.number-sign.nix
+"quotient"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"6"  ::  source.nix constant.numeric.integer.nix
+"/"  ::  source.nix keyword.operator.nix
+"3"  ::  source.nix constant.numeric.integer.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"#"  ::  source.nix comment.line.number-sign.nix punctuation.definition.comment.nix
+" division"  ::  source.nix comment.line.number-sign.nix
+"scale"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"1.5e3"  ::  source.nix constant.numeric.float.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"answer"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"42"  ::  source.nix constant.numeric.integer.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"in"  ::  source.nix keyword.control.nix
+"rec"  ::  source.nix keyword.other.nix
+"{"  ::  source.nix punctuation.section.braces.begin.nix
+"imports"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"["  ::  source.nix punctuation.section.brackets.begin.nix
+" module "  ::  source.nix
+"]"  ::  source.nix punctuation.section.brackets.end.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"services.nginx.enable"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"true"  ::  source.nix constant.language.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"services.nginx.virtualHosts.\"example.org\".root"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+" root"  ::  source.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"environment.systemPackages"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"with"  ::  source.nix keyword.control.nix
+" pkgs"  ::  source.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"["  ::  source.nix punctuation.section.brackets.begin.nix
+" curl git "  ::  source.nix
+"]"  ::  source.nix punctuation.section.brackets.end.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"networking.hostName"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+" host"  ::  source.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"boot.kernelParams"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"["  ::  source.nix punctuation.section.brackets.begin.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.begin.nix
+"quiet"  ::  source.nix string.quoted.double.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.end.nix
+"]"  ::  source.nix punctuation.section.brackets.end.nix
+"++"  ::  source.nix keyword.operator.nix
+"["  ::  source.nix punctuation.section.brackets.begin.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.begin.nix
+"splash"  ::  source.nix string.quoted.double.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.end.nix
+"]"  ::  source.nix punctuation.section.brackets.end.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"status"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"if"  ::  source.nix keyword.control.nix
+" config.services.nginx.enable "  ::  source.nix
+"or"  ::  source.nix keyword.operator.word.nix
+"false"  ::  source.nix constant.language.nix
+"then"  ::  source.nix keyword.control.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.begin.nix
+"on"  ::  source.nix string.quoted.double.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.end.nix
+"else"  ::  source.nix keyword.control.nix
+"null"  ::  source.nix constant.language.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"src"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"builtins.fetchTarball"  ::  source.nix support.function.builtin.nix
+"{"  ::  source.nix punctuation.section.braces.begin.nix
+"url"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.begin.nix
+"https://example.org/src.tar.gz"  ::  source.nix string.quoted.double.nix
+"\""  ::  source.nix string.quoted.double.nix punctuation.definition.string.end.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"sha256"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+" lib.fakeSha256"  ::  source.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"}"  ::  source.nix punctuation.section.braces.end.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"doubled"  ::  source.nix entity.other.attribute-name.nix
+"="  ::  source.nix keyword.operator.assignment.nix
+"assert"  ::  source.nix keyword.control.nix
+" answer "  ::  source.nix
+"!="  ::  source.nix keyword.operator.nix
+"0"  ::  source.nix constant.numeric.integer.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"map"  ::  source.nix support.function.builtin.nix
+"("  ::  source.nix punctuation.section.parens.begin.nix
+"v"  ::  source.nix variable.parameter.function.nix
+":"  ::  source.nix punctuation.separator.colon.nix
+" v "  ::  source.nix
+"*"  ::  source.nix keyword.operator.nix
+"2"  ::  source.nix constant.numeric.integer.nix
+")"  ::  source.nix punctuation.section.parens.end.nix
+"["  ::  source.nix punctuation.section.brackets.begin.nix
+"1"  ::  source.nix constant.numeric.integer.nix
+"2"  ::  source.nix constant.numeric.integer.nix
+"3"  ::  source.nix constant.numeric.integer.nix
+" answer "  ::  source.nix
+"]"  ::  source.nix punctuation.section.brackets.end.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"inherit"  ::  source.nix keyword.other.nix
+"("  ::  source.nix punctuation.section.parens.begin.nix
+"pkgs"  ::  source.nix
+")"  ::  source.nix punctuation.section.parens.end.nix
+" stdenv"  ::  source.nix
+";"  ::  source.nix punctuation.terminator.statement.nix
+"}"  ::  source.nix punctuation.section.braces.end.nix
