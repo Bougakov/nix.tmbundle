@@ -11,6 +11,8 @@
 * `⌘/` comment toggling (`#` and `/* ... */`).
 * Smart typing pairs and brace-match highlighting.
 
+![Screenshot of a test.nix demo](test.nix.png)
+
 ## Installation
 
 Either double-click `Nix.tmbundle`, or clone straight into TextMate's bundle directory:
